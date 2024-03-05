@@ -27,7 +27,7 @@ def create_holiday_bike_sharing_df(df):
     
     return holiday_bike_sharing
 
-bike_sharing_df = pd.read_csv("bike_sharing_data.csv")
+bike_sharing_df = pd.read_csv("dashboard/bike_sharing_data.csv")
 
 st.header('Proyek Analisis Data : Bike Sharing Data | Chiquito Shaduq Aurick Fulvian')
 st.subheader('Data Jumlah Sewa Sepeda')
